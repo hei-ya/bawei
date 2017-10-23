@@ -1,0 +1,12 @@
+[
+  {
+    "images":"./Content/images/phone.jpg",
+    "title":"行业前景",
+    "content":["1.社会应用面很广","2.行业需求量很大","3.人才很缺乏，我们的培养有事"]
+  },
+  {
+    "images":"./Content/images/book.jpg",
+    "title":"课程优势",
+    "content":["1.社会应用面很广","2.行业需求量很大","3.人才很缺乏，我们的培养有事"]
+  }
+]

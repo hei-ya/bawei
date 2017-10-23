@@ -1,0 +1,22 @@
+<footer class="footer">
+    <ul>
+        <li class="col-xs-4">
+            <i class="fa fa-home"></i>
+            <span>首页</span>
+        </li>
+        <li class="col-xs-4">
+            <i class="fa fa-search"></i>
+            <span>发现</span>
+        </li>
+        <li class=" col-xs-4">
+            <i class="fa fa-female"></i>
+            <span>我的</span>
+        </li>
+    </ul>
+</footer>
+
+<script>
+    $('.footer ul li').click(function(){
+        $(this).addClass('footer-active').siblings().removeClass('footer-active');
+    });
+</script>

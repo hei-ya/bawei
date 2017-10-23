@@ -1,0 +1,293 @@
+body {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  font-size: 12px;
+  background: #F6F6F6; }
+
+.header {
+  height: 1.02rem; }
+  .header .header-top {
+    height: 0.64rem;
+    display: -webkit-flex;
+    background: #3E55A5; }
+    .header .header-top div {
+      color: #fff;
+      font-size: 0.16rem; }
+      .header .header-top div:nth-child(1), .header .header-top div:nth-child(3) {
+        width: 0.8rem;
+        text-align: center; }
+        .header .header-top div:nth-child(1) i, .header .header-top div:nth-child(3) i {
+          font-size: 0.18rem; }
+      .header .header-top div:nth-child(3) span,
+      .header .header-top div:nth-child(3) b {
+        font-size: 12px; }
+      .header .header-top div:nth-child(1) {
+        line-height: 0.64rem; }
+      .header .header-top div:nth-child(2) {
+        -webkit-flex: 1;
+        color: #fff;
+        text-align: center;
+        line-height: 0.64rem; }
+        .header .header-top div:nth-child(2) img {
+          width: 0.33rem;
+          height: 0.33rem; }
+  .header .header-bottom {
+    height: 0.38rem; }
+    .header .header-bottom .list {
+      height: 100%;
+      background: #EEEEEE; }
+      .header .header-bottom .list ul {
+        display: -webkit-flex; }
+        .header .header-bottom .list ul .list-active {
+          border-bottom-color: #335D87; }
+        .header .header-bottom .list ul li {
+          -webkit-flex: 1;
+          line-height: 0.36rem;
+          text-align: center;
+          font-size: 0.14rem;
+          border-bottom: 2px solid transparent; }
+
+.content {
+  -webkit-flex: 1;
+  overflow-y: scroll; }
+  .content .picture {
+    height: 1.25rem;
+    margin-bottom: 0.1rem; }
+    .content .picture .swiper-container {
+      height: 100%; }
+      .content .picture .swiper-container .swiper-wrapper {
+        height: 100%; }
+        .content .picture .swiper-container .swiper-wrapper .swiper-slide {
+          height: 100%; }
+          .content .picture .swiper-container .swiper-wrapper .swiper-slide img {
+            width: 100%;
+            height: 100%; }
+      .content .picture .swiper-container .swiper-pagination-bullet {
+        background: #fff; }
+  .content .IOS {
+    height: 3.1rem; }
+    .content .IOS h2 {
+      font-size: 0.16rem;
+      text-align: center;
+      line-height: 0.34rem; }
+    .content .IOS p {
+      text-align: center;
+      color: #A0A0A0;
+      margin-bottom: 0.1rem; }
+    .content .IOS .list-item {
+      height: 2.4rem;
+      padding: 0 0.1rem;
+      box-sizing: border-box; }
+      .content .IOS .list-item > div {
+        padding: 0; }
+        .content .IOS .list-item > div:nth-child(1) {
+          padding-right: 0.05rem;
+          box-sizing: border-box; }
+        .content .IOS .list-item > div:nth-child(2) dl dd {
+          background: #9ADBD5; }
+          .content .IOS .list-item > div:nth-child(2) dl dd h2 {
+            background: #91CDCE; }
+        .content .IOS .list-item > div dl {
+          height: 2.4rem; }
+          .content .IOS .list-item > div dl dt {
+            height: 0.7rem; }
+            .content .IOS .list-item > div dl dt img {
+              width: 100%;
+              height: 100%; }
+          .content .IOS .list-item > div dl dd {
+            background: #ABAAE4;
+            height: 1.8rem; }
+            .content .IOS .list-item > div dl dd h2 {
+              height: 0.44rem;
+              line-height: 0.44rem;
+              background: #A2A1DD;
+              color: #fff;
+              text-shadow: 1px 2px 1px #fafafa; }
+            .content .IOS .list-item > div dl dd ul {
+              height: 1.3rem;
+              padding: 0.1rem 0.15rem;
+              color: #fff; }
+              .content .IOS .list-item > div dl dd ul li {
+                line-height: 2; }
+  .content .shixun {
+    height: 2.44rem; }
+    .content .shixun > h2 {
+      font-size: 0.16rem;
+      text-align: center;
+      line-height: 0.34rem; }
+    .content .shixun > p {
+      text-align: center;
+      color: #A0A0A0;
+      margin-bottom: 0.1rem; }
+    .content .shixun > .list-more {
+      height: 1.8rem;
+      padding: 0 0.1rem; }
+      .content .shixun > .list-more > div {
+        padding: 0;
+        height: 0.85rem;
+        margin-bottom: 0.05rem; }
+        .content .shixun > .list-more > div:nth-child(1), .content .shixun > .list-more > div:nth-child(3) {
+          padding-right: 0.05rem;
+          box-sizing: border-box; }
+        .content .shixun > .list-more > div dl {
+          height: 100%;
+          position: relative; }
+          .content .shixun > .list-more > div dl dt {
+            height: 100%; }
+            .content .shixun > .list-more > div dl dt img {
+              width: 100%;
+              height: 100%; }
+          .content .shixun > .list-more > div dl dd {
+            position: absolute;
+            width: 100%;
+            bottom: 0; }
+            .content .shixun > .list-more > div dl dd > p {
+              color: #fff;
+              height: 0.3rem;
+              line-height: 0.3rem;
+              background: rgba(0, 0, 0, 0.5);
+              width: 100%;
+              padding-left: 0.1rem; }
+    .content .shixun .cont {
+      padding: 0 0.1rem;
+      margin-top: 0.1rem; }
+      .content .shixun .cont > p {
+        font-size: 0.14rem;
+        line-height: 1.8; }
+      .content .shixun .cont .kec {
+        height: 5.5rem; }
+        .content .shixun .cont .kec h2 {
+          text-align: center;
+          margin-top: 0.1rem;
+          font-weight: 400;
+          line-height: 0.34rem;
+          font-size: 0.16rem; }
+        .content .shixun .cont .kec > p {
+          text-align: center;
+          color: #A0A0A0;
+          margin-bottom: 0.1rem; }
+        .content .shixun .cont .kec > div {
+          height: 0.95rem;
+          border-radius: 8px;
+          padding: 0;
+          overflow: hidden;
+          margin-bottom: 0.1rem; }
+          .content .shixun .cont .kec > div dl {
+            color: #fff; }
+            .content .shixun .cont .kec > div dl dt {
+              height: 0.34rem;
+              background: rgba(0, 0, 0, 0.3);
+              padding-left: 0.2rem; }
+              .content .shixun .cont .kec > div dl dt h3 {
+                font-size: 0.16rem;
+                height: 0.34rem;
+                line-height: 0.34rem; }
+            .content .shixun .cont .kec > div dl dd {
+              padding-left: 0.15rem;
+              line-height: 0.34rem;
+              height: 0.64rem; }
+              .content .shixun .cont .kec > div dl dd span {
+                padding: 0.1rem 0.2rem; }
+    .content .shixun .dir {
+      padding: 0 0.1rem;
+      height: 3.5rem; }
+      .content .shixun .dir h2 {
+        text-align: center;
+        line-height: 0.2rem;
+        font-size: 0.16rem; }
+      .content .shixun .dir > p {
+        text-align: center;
+        line-height: 0.3rem; }
+      .content .shixun .dir > div {
+        border: 1px solid #ccc;
+        background: #fff;
+        border-radius: 8px; }
+        .content .shixun .dir > div p {
+          line-height: 2;
+          font-size: 0.14rem; }
+          .content .shixun .dir > div p:nth-child(1) {
+            margin-bottom: 0.15rem; }
+        .content .shixun .dir > div ul {
+          height: 0.63rem;
+          padding: 0;
+          margin-bottom: 0.1rem; }
+          .content .shixun .dir > div ul li {
+            padding: 0;
+            margin-bottom: 0.05rem;
+            padding-right: 0.05rem;
+            box-sizing: border-box; }
+            .content .shixun .dir > div ul li img {
+              width: 100%;
+              height: 100%; }
+    .content .shixun .mub {
+      height: 1.75rem;
+      padding: 0 0.1rem; }
+      .content .shixun .mub > h2 {
+        height: 0.3rem;
+        font-size: 0.16rem;
+        text-align: center;
+        margin-top: 0.1rem; }
+      .content .shixun .mub > p {
+        text-align: center;
+        padding-bottom: 0.1rem; }
+      .content .shixun .mub .mub-list {
+        height: auto; }
+        .content .shixun .mub .mub-list > div {
+          padding: 0;
+          box-sizing: border-box;
+          text-align: center;
+          height: 1.14rem; }
+          .content .shixun .mub .mub-list > div dl dt {
+            height: 0.85rem;
+            color: #fff; }
+            .content .shixun .mub .mub-list > div dl dt h3 {
+              font-size: 0.16rem;
+              line-height: 0.35rem; }
+            .content .shixun .mub .mub-list > div dl dt h4 {
+              font-size: 0.12rem; }
+            .content .shixun .mub .mub-list > div dl dt p {
+              line-height: 1.5;
+              margin-top: 0.05rem; }
+          .content .shixun .mub .mub-list > div dl dd {
+            height: 0.3rem;
+            background: rgba(0, 0, 0, 0.3);
+            line-height: 0.3rem; }
+            .content .shixun .mub .mub-list > div dl dd p {
+              color: #fff; }
+    .content .shixun .all {
+      height: 0.3rem;
+      margin-top: 0.1rem;
+      padding: 0 0.1rem;
+      margin-bottom: 0.3rem; }
+      .content .shixun .all button {
+        height: 100%;
+        border: 0;
+        border-radius: 6px;
+        color: #fff; }
+    .content .shixun .back {
+      height: 0.3rem;
+      background: #EEEEEE;
+      color: #808080;
+      text-align: center;
+      line-height: 0.3rem; }
+
+.footer {
+  height: 0.44rem;
+  border-top: 1px solid #989898;
+  background: #6276B3;
+  color: #fff; }
+  .footer ul .footer-active {
+    color: #4873ff; }
+  .footer ul li {
+    text-align: center;
+    padding-top: 0.05rem; }
+    .footer ul li i {
+      display: block;
+      font-size: 0.16rem;
+      margin-bottom: 0.03rem; }
+
+/*# sourceMappingURL=style.css.map */

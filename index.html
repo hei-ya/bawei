@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width">
+    <link type="text/css" rel="stylesheet" href="Content/css/swiper.min.css">
+    <link type="text/css" rel="stylesheet" href="Content/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="Content/css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="Content/css/reset.css">
+    <link type="text/css" rel="stylesheet" href="Content/css/common.css">
+    <link type="text/css" rel="stylesheet" href="Content/css/style.css">
+</head>
+<body ng-app="app">
+    <header ng-include="'./App/View/include/header.html'"></header>
+    <section class="content">
+        <ui-view></ui-view>
+    </section>
+    <footer ng-include="'./App/View/include/footer.html'"></footer>
+
+    <script type="text/javascript" src="Script/swiper.min.js"></script>
+    <script type="text/javascript" src="Script/jquery.min.js"></script>
+    <script type="text/javascript" src="Script/bootstrap.min.js"></script>
+    <script type="text/javascript" src="Script/angular.min.js"></script>
+    <script type="text/javascript" src="Script/angular-ui-router.min.js"></script>
+    <script type="text/javascript" src="App/app.js"></script>
+
+    <script type="text/javascript" src="App/Service/baseService.js"></script>
+    <script type="text/javascript" src="App/Service/picService.js"></script>
+
+    <script type="text/javascript" src="App/Controller/picController.js"></script>
+
+</body>
+</html>
